@@ -31,13 +31,15 @@
           </div>
         );
       }
-      
-      const app = ()=>{
-        return <>
-          <ChatInput />
-          <ChatMessage message="Hello Chatbot" />
-          <ChatMessage message="Hello! How can I help you?"/>
-        </>
+
+      const app = () => {
+        return (
+          <>
+            <ChatInput />
+            <ChatMessage message="Hello Chatbot" />
+            <ChatMessage message="Hello! How can I help you?" />
+          </>
+        );
       };
 
       const container = document.querySelector(".js-container");
