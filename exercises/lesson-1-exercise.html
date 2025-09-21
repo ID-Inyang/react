@@ -45,7 +45,7 @@
       );
       console.log(productCost);
       const root = ReactDOM.createRoot(container).render(div);
-      setInterval(() => {root}, 1000)
+      setInterval(() => {ReactDOM.createRoot(container).render(div);}, 1000)
     </script>
   </body>
 </html>
