@@ -21,12 +21,12 @@
       }
 
       function ChatMessage([message, src] = props) {
-        const messaget = message;
+        const messageText = message;
         const source = src;
 
         return (
           <div>
-            {message}
+            {messageText}
             <img src="{source}" width="60" />
           </div>
         );
