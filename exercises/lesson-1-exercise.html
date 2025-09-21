@@ -45,7 +45,7 @@
       );
       console.log(productCost);
       const root = ReactDOM.createRoot(container);
-      setInterval(() => {root.render();}, 1000);
+      setInterval(() => {root.render(<p>Current time: {dayjs().format('HH:mm:ss')}</p>);}, 1000);
     </script>
   </body>
 </html>
