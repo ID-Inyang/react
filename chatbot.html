@@ -33,7 +33,11 @@
       }
       
       const app = ()=>{
-        return <div>Hello World</div>;
+        return <>
+          <ChatInput />
+          <ChatMessage message="Hello Chatbot" />
+          <ChatMessage message="Hello! How can I help you?"/>
+        </>
       } 
 
       const app = (
