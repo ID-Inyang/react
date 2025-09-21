@@ -20,7 +20,7 @@
         );
       }
 
-      function ChatMessage([]props) {
+      function ChatMessage([me]= props) {
         const message = props.message;
         const source = props.src;
 
